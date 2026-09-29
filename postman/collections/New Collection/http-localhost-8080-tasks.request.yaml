@@ -1,0 +1,19 @@
+$kind: http-request
+name: http://localhost:8080/tasks
+description: ""
+url: http://localhost:8080/tasks
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Design TaskForge Dashboard\",\r
+
+    \  \"description\": \"Create the dashboard UI for TaskForge\",\r
+
+    \  \"status\": \"TODO\",\r
+
+    \  \"priority\": \"HIGH\"\r
+
+    }"
+order: 2889914363663692

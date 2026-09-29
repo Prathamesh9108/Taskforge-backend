@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://localhost:8080/projects/1
+description: ""
+url: http://localhost:8080/projects/1
+method: DELETE
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"TaskForge Backend\",\r
+
+    \  \"description\": \"Task management and project tracking application\",\r
+
+    \  \"status\": \"IN_PROGRESS\"\r
+
+    }"
+order: 1790251707644
