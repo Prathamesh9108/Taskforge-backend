@@ -40,6 +40,7 @@ public class ProjectService {
             existingProject.setName(project.getName());
             existingProject.setDescription(project.getDescription());
             existingProject.setStatus(project.getStatus());
+            existingProject.setProgress(project.getProgress());
 
             return repository.save(existingProject);
         }
